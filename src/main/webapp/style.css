@@ -1,0 +1,92 @@
+@charset "ISO-8859-1";
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f0ff; /* Pastel background */
+    color: #4c2a4d; /* Mauve text */
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3 {
+    color: #8e4585; /* Darker mauve for headings */
+}
+
+a {
+    color: #8e4585;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #e6d0ff; /* Soft pastel background for navbar */
+    padding: 10px;
+}
+
+.navbar a {
+    margin: 0 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f3e5f5; /* Pastel mauve */
+    color: #4c2a4d; /* Text color */
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #cfa5e0; /* Slightly darker on hover */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    table-layout: auto;
+    background-color: #fff;
+}
+
+table, th, td {
+    border: 2px solid #8e4585; /* Mauve border */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+th {
+    background-color: #8e4585; /* Mauve background */
+    color: white; /* White text for headers */
+}
+
+tr:nth-child(even) {
+    background-color: #f7eaf5; /* Light pastel mauve for even rows */
+}
+
+tr:nth-child(odd) {
+    background-color: #fdf0f5; /* Slightly lighter pastel for odd rows */
+}
+
+/* Button Styles */
+button, input[type="submit"], input[type="button"] {
+    background-color: #cfa5e0; /* Mauve */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover, input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #8e4585; /* Darker mauve on hover */
+}
